@@ -1,0 +1,397 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(154, 125, 13);
+    height: 100px;
+    gap: 30px;
+}
+
+nav button {
+    outline: none;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#content {
+    max-width: 810px;
+    margin: 100px auto;
+    padding: 100px;
+    border-radius: 50px;
+    background-color: rgb(154, 125, 13);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#content>* {
+    background-color: #c16a08;
+}
+
+.heading-container {
+    width: 710px;
+    height: 60px;
+    padding: 10px;
+    clip-path: polygon(0 33.3%,
+            6% 0,
+            94% 0,
+            100% 33.3%,
+            100% 66.6%,
+            94% 100%,
+            6% 100%,
+            0 66.6%);
+}
+
+.heading {
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 710px;
+    height: 60px;
+    text-align: center;
+    clip-path: polygon(0 33.3%,
+            5% 0,
+            95% 0,
+            100% 33.3%,
+            100% 66.6%,
+            95% 100%,
+            5% 100%,
+            0 66.6%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1 {
+    font-size: 45px;
+    margin: 0;
+
+}
+
+.review {
+    width: 550px;
+    height: 265px;
+    padding: 20px;
+    margin: 0;
+    clip-path: polygon(0 25%,
+            10% 0,
+            90% 0,
+            100% 25%,
+            100% 75%,
+            90% 100%,
+            10% 100%,
+            0 75%);
+}
+
+.review-inner {
+    background-color: yellow;
+    width: 550px;
+    height: 265px;
+    box-sizing: border-box;
+    padding: 20px;
+    clip-path: polygon(0 25%,
+            10% 0,
+            90% 0,
+            100% 25%,
+            100% 75%,
+            90% 100%,
+            10% 100%,
+            0 75%);
+}
+
+.review-inner:first-child {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.customer {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.hours {
+    width: 550px;
+    height: 365px;
+    padding: 20px;
+    margin: 0;
+    clip-path: polygon(0 25%,
+            10% 0,
+            90% 0,
+            100% 25%,
+            100% 75%,
+            90% 100%,
+            10% 100%,
+            0 75%);
+}
+
+.hours-inner {
+    background-color: yellow;
+    width: 550px;
+    height: 365px;
+    box-sizing: border-box;
+    padding: 20px;
+    clip-path: polygon(0 25%,
+            10% 0,
+            90% 0,
+            100% 25%,
+            100% 75%,
+            90% 100%,
+            10% 100%,
+            0 75%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hours-inner h1 {
+    align-self: flex-start;
+    padding-left: 20px;
+}
+
+.hours-inner p {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.location {
+    width: 550px;
+    height: 115px;
+    padding: 20px;
+    margin: 0;
+    clip-path: polygon(0 25%,
+            10% 0,
+            90% 0,
+            100% 25%,
+            100% 75%,
+            90% 100%,
+            10% 100%,
+            0 75%);
+}
+
+.location-inner {
+    background-color: yellow;
+    width: 550px;
+    height: 115px;
+    box-sizing: border-box;
+    padding: 20px;
+    clip-path: polygon(0 25%,
+            10% 0,
+            90% 0,
+            100% 25%,
+            100% 75%,
+            90% 100%,
+            10% 100%,
+            0 75%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-inner h1 {
+    margin: 0;
+    align-self: flex-start;
+    padding-left: 20px;
+}
+
+.location-inner p {
+    font-size: 20px;
+}
+
+/*-----------------------------*/
+
+
+.mini-heading-container {
+    width: 350px;
+    height: 60px;
+    padding: 10px;
+    clip-path: polygon(0 33.3%,
+            6% 0,
+            94% 0,
+            100% 33.3%,
+            100% 66.6%,
+            94% 100%,
+            6% 100%,
+            0 66.6%);
+}
+
+.mini-heading {
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    clip-path: polygon(0 33.3%,
+            5% 0,
+            95% 0,
+            100% 33.3%,
+            100% 66.6%,
+            95% 100%,
+            5% 100%,
+            0 66.6%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-heading h1 {
+    font-size: 36px;
+    margin: 0;
+
+}
+
+.menu-container {
+    width: 420px;
+    height: 600px;
+    padding: 20px;
+    clip-path: polygon(0 25%,
+            9% 0,
+            91% 0,
+            100% 25%,
+            100% 75%,
+            91% 100%,
+            9% 100%,
+            0 75%);
+
+}
+
+.menu-content {
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 420px;
+    height: 600px;
+    text-align: center;
+    clip-path: polygon(0 25%,
+            9% 0,
+            91% 0,
+            100% 25%,
+            100% 75%,
+            91% 100%,
+            9% 100%,
+            0 75%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 35px;
+}
+
+.menu-content div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.menu-content h3 {
+    align-self: flex-start;
+}
+
+.menu-content p {
+    font-size: 16px;
+}
+
+.menu-img {
+    align-self: end;
+    border-radius: 10px;
+    border: 3px solid;
+}
+
+
+h3 {
+    font-size: 26px;
+}
+
+
+.heading-container-about {
+    width: 300px;
+    height: 140px;
+    padding: 10px;
+    clip-path: polygon(0 33.3%,
+            6% 0,
+            94% 0,
+            100% 33.3%,
+            100% 66.6%,
+            94% 100%,
+            6% 100%,
+            0 66.6%);
+}
+
+.heading-about {
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 300px;
+    height: 140px;
+    text-align: center;
+    clip-path: polygon(0 33.3%,
+            5% 0,
+            95% 0,
+            100% 33.3%,
+            100% 66.6%,
+            95% 100%,
+            5% 100%,
+            0 66.6%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container {
+    width: 420px;
+    height: 220px;
+    padding: 20px;
+    clip-path: polygon(0 25%,
+            9% 0,
+            91% 0,
+            100% 25%,
+            100% 75%,
+            91% 100%,
+            9% 100%,
+            0 75%);
+
+}
+
+.contact-inner {
+    background-color: yellow;
+    box-sizing: border-box;
+    width: 420px;
+    height: 220px;
+    text-align: center;
+    clip-path: polygon(0 25%,
+            9% 0,
+            91% 0,
+            100% 25%,
+            100% 75%,
+            91% 100%,
+            9% 100%,
+            0 75%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 35px;
+}
+
+.contact-inner p{
+    padding: 0;
+    margin: 5px;
+}
+
+.clicked{
+    background-color: white;
+    outline: auto;
+}
